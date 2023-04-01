@@ -1,4 +1,4 @@
-import Users from "./components/Users";
+import UserFinder from "./components/UserFinder";
 import UsersContext from "./store/users-context";
 
 const DUMMY_USERS = [
@@ -14,7 +14,7 @@ function App() {
 
   return (
     <UsersContext.Provider value={usersContext}>
-      <Users />
+      <UserFinder />
     </UsersContext.Provider>
   );
 }
